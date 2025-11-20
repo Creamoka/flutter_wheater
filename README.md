@@ -2,9 +2,9 @@
 
 Aplikasi cuaca sederhana berbasis **Flutter** yang menampilkan:
 
--   Cuaca saat ini berdasarkan **lokasi GPS**\
--   Prakiraan cuaca **5 hari ke depan**\
--   Daftar cuaca **kota-kota terdekat**\
+-   Cuaca saat ini berdasarkan **lokasi GPS**
+-   Prakiraan cuaca **5 hari ke depan**
+-   Daftar cuaca **kota-kota terdekat**
 -   Navigasi drawer (Home / Kota / About)
 
 Aplikasi ini menggunakan API dari **OpenWeatherMap**.
@@ -19,7 +19,7 @@ Aplikasi ini menggunakan API dari **OpenWeatherMap**.
 ### 📅 Prakiraan 5 Hari
 
 -   Menggunakan endpoint **/forecast**
--   Menampilkan cuaca harian (jam 12:00)\
+-   Menampilkan cuaca harian (jam 12:00)
 -   Max/min temperature tiap hari
 
 ### 🏙️ Daftar Cuaca Kota Terdekat
@@ -55,7 +55,12 @@ cd weatherapp
 ### 2️⃣ Dependencies
 
 ``` bash
-flutter pub get
+  http: ^1.6.0
+  intl: ^0.20.2
+  geolocator: ^14.0.2
+  flutter_dotenv: ^6.0.0
+  lottie: ^3.3.2
+  google_fonts: ^6.3.2
 ```
 
 ### 3️⃣ Buat File `.env`
